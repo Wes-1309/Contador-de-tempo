@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown timer</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <div class="clock-input">
+        <input type="date" name="time-to" class="time-to" id="time-to" value="" onchange="calcTime(this.value)">
+    </div>
+
+    <div class="container">
+        
+        <div class="clock-column">
+            <p class="clock-day clock-timer"></p>
+            <p class="clock-label">Days</p>
+        </div>
+
+        <div class="clock-column">
+            <p class="clock-hours clock-timer"></p>
+            <p class="clock-label">Hours</p>
+        </div>
+
+        <div class="clock-column">
+            <p class="clock-minutes clock-timer"></p>
+            <p class="clock-label">Minutes</p>
+        </div>
+
+        <div class="clock-column">
+            <p class="clock-seconds clock-timer"></p>
+            <p class="clock-label">Seconds</p>
+        </div>
+
+    </div>
+    
+    <script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
